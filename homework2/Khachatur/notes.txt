@@ -1,0 +1,18 @@
+Index-table.html
+	1. bordern avelord er baic lava, arandzin filn ela lav
+
+login.html
+	1. lava, common css-i masov ashks mtav
+
+	suggest
+		required attribute
+
+reg.html
+	1. lava, common css-i masov ashks mtav
+
+	suggest
+		required attribute
+
+terms-condition.html
+	1. ashxati sovorutyun sarqes text@ uxxaki chdnes, wrap ara inchvor tag-ov, es depqum xosqi "p" tagov
+	2. miqich css kareli er avelacnel

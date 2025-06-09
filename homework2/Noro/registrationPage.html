@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Register</title>
+	<style>
+		body {
+			background-color: #f4f4f4;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+
+		.register-box {
+			background: #fff;
+			padding: 30px;
+			border-radius: 10px;
+			width: 350px;
+		}
+
+		.register-box h2 {
+			text-align: center;
+		}
+
+		.register-box input[type="text"],
+		.register-box input[type="email"],
+		.register-box input[type="password"] {
+			width: 100%;
+			padding: 10px;
+			margin: 10px 0;
+			border-radius: 6px;
+			box-sizing: border-box;
+		}
+
+		.register-box button {
+			width: 100%;
+			padding: 10px;
+			background-color: #27ae60;
+			color: white;
+			border: none;
+			border-radius: 6px;
+			cursor: pointer;
+			font-size: 16px;
+			margin-top: 10px;
+		}
+
+		.register-box button:hover {
+			background-color: #219150;
+		}
+
+		.bottom-links {
+			text-align: center;
+		}
+
+		.bottom-links a {
+			color: #3498db;
+			text-decoration: none;
+		}
+
+		.bottom-links a:hover {
+			text-decoration: underline;
+		}
+
+		.terms {
+			display: flex;
+			align-items: center;
+			margin-top: 10px;
+		}
+
+		.terms input {
+			margin-right: 8px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="register-box">
+		<h2>Register</h2>
+		<form action="/register" method="post">
+			<input type="text" name="username" placeholder="Username" required>
+			<input type="email" name="email" placeholder="Email" required>
+			<input type="password" name="password" placeholder="Password" required>
+
+			<div class="gender">
+				<label><input type="radio" name="gender" value="M" required> Male</label>
+				<label><input type="radio" name="gender" value="F" required> Female</label>
+			</div>
+
+			<div class="terms">
+				<input type="checkbox" name="terms" required>
+				<label>I accept the <a href="./terms.html" target="_blank">Terms and Conditions</a></label>
+			</div>
+
+			<button type="submit">Register</button>
+		</form>
+
+		<div class="bottom-links">
+			<p>Already have an account? <a href="./login.html">Login</a></p>
+		</div>
+	</div>
+
+</body>
+
+</html>

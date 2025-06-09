@@ -1,0 +1,17 @@
+index.html
+	1. design@ lavna, avel baner el kan, lava, baic classner sarqeir aveli lav kliner, hetagayum ashxati 99% zerc mnas tag-in miangamic style talov
+
+	questions
+	1. ete form-ov wrap aneinq table@, inch@ kam inchern en pakas html-um
+
+login.html
+	1. Classner sarqeir aveli lav kliner, hetagayum ashxati 99% zerc mnas tag-in miangamic style talov
+
+	suggest
+	1. araj es @ngel, lava, pattern attribute-@ nayui https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/pattern
+
+registrationPage.html
+	1. ste aveli shat classner kan, lava
+
+
+terms-@ ura?

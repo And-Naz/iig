@@ -1,0 +1,28 @@
+/* sa bolor table typei tegerin kverabervi */
+/* table
+{
+    color: magenta;
+} */
+
+/* sa classern en */
+.tableStyle {
+	border-color: black;
+	/* border-style: dashed; */
+	/* margin: 0px; */
+	/* border-bottom: 100px; */
+	/* border-radius: 0; */
+}
+
+.headerstyle {
+	text-align: center;
+	background: gray;
+}
+
+.ftrstyle {
+	background: black;
+	color: white;
+	text-align: right;
+}
+
+/* by id kareli e grel #-ov */
+/* tegi mej gtnvoq handipox mek aul teg grum enq ayspes */

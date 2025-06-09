@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration</title>
+	<link rel="stylesheet" href="style-label-inputs.css">
+</head>
+
+<body>
+	<h1>Registration</h1>
+	<form method="post" action="#">
+		<div class="form-group">
+			<label> User Name:</label>
+			<input placeholder="user name" name="login" type="text" />
+		</div>
+		<div class="form-group">
+			<label for="passwordFieldID">Password:</label>
+			<input name="passwordField" type="password" placeholder="enter password" id="passwordFieldID" />
+		</div>
+		<div class="form-group">
+			<label>Email:</label>
+			<input placeholder="e-mail" name="email" type="text" />
+		</div>
+		<div class="form-group">
+			<input type="radio" id="radiobtn1-1" name="Sa-E-Kapum-erku-radionery" value="M">
+			<label for="radiobtn1-1">Male</label>
+			<input type="radio" id="radiobtn1-2" name="Sa-E-Kapum-erku-radionery" value="F">
+			<label for="radiobtn1-2">Female</label><br>
+		</div>
+		<div class="form-group">
+			<input name="acceptterms" id="accepttermsID" type="checkbox" />
+			<label for="accepttermsID">Accept Terms</label><br>
+		</div>
+		<div class="form-group">
+			<input id="submitID" type="submit" value="Send">
+		</div>
+	</form>
+
+	<a href="./terms-condition.html">Terms and Conditions</a><br>
+	<a href="./login.html">Login page</a>
+</body>
+
+</html>

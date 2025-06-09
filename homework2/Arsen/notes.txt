@@ -1,0 +1,16 @@
+1/index.html
+	1. lavna baic classnerov kareli er styler tal
+
+Login Page/HTML/login.html
+	1. lava, classner avei shat arjer ogtagorcel
+
+Login Page/HTML/register.html
+	1. lava, classner avei shat arjer ogtagorcel
+	2. other gender :) required sax inputnerin dir gender-um
+
+	suggest
+		required attribute
+
+Login Page/HTML/terms.html
+	1. classi anuner@ sxala, eli kareliya  shatacnel
+	2. lava vor js-i pahov araj es @nkel
