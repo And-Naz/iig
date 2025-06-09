@@ -1,0 +1,156 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f5f5f5;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #0084ff;
+	padding: 10px 20px;
+}
+
+.nav-left a,
+.nav-right a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.nav-right a {
+	margin-left: 20px;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+.table-title {
+	text-align: center;
+	margin-top: 40px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+}
+
+table {
+	width: 600px;
+	border-collapse: collapse;
+	margin: 20px auto;
+}
+
+th,
+td {
+	border: 1px solid #444;
+	padding: 8px;
+	text-align: center;
+}
+
+th {
+	background-color: #eee;
+}
+
+tfoot td {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	text-align: right;
+}
+
+
+.form-container {
+	max-width: 400px;
+	margin: 60px auto;
+	padding: 30px;
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	text-align: center;
+}
+
+.form-container h2 {
+	margin-bottom: 20px;
+	color: #333;
+}
+
+.form-container label {
+	display: block;
+	margin: 10px 0 5px;
+	text-align: left;
+	color: #555;
+}
+
+.form-container input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.form-container button {
+	width: 100%;
+	padding: 10px;
+	background-color: #333;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.form-container button:hover {
+	background-color: #555;
+}
+
+.form-container p {
+	margin-top: 15px;
+	font-size: 14px;
+}
+
+.radio-group {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 15px;
+}
+
+.radio-group label {
+	font-weight: normal;
+	color: #333;
+}
+
+.checkbox-group {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	color: #333;
+}
+
+.checkbox-group input[type="checkbox"] {
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.checkbox-group a {
+	color: #007BFF;
+	text-decoration: none;
+}
+
+.checkbox-group a:hover {
+	text-decoration: underline;
+}
+
+.terms-container {
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
