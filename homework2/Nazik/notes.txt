@@ -1,0 +1,19 @@
+index.html
+	1. login@ pti lini button kam input type submit, formi action@ kareliya myus ej@ dnel
+	2. inputnern el required
+
+registration.html
+	1. registr@ pti lini button kam input type submit, formi action@ kareliya myus ej@ dnel
+	2. inputnern el required
+	3. nuyn id-ov erku element ka
+	4. email-i hamar arandzin type ka
+	5. reset-i hamar button/input type reset ka
+
+TermsCondition.html
+	1. styler kareliya tal
+
+account.html
+	1. lavna, baic vonj joga ete img tagova nkar@ css-ov #accountBody kareliya hanel, vonc haskaca chi el ogtagorcvum
+
+
+table@?
