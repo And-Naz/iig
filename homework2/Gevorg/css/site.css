@@ -1,0 +1,143 @@
+/* site.css */
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background: linear-gradient(to right, #6a11cb, #2575fc);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 0;
+	padding-top: 80px;
+	overflow-x: hidden;
+}
+
+.menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: white;
+	padding: 12px 0;
+	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+	z-index: 1000;
+}
+
+.menu-container {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+}
+
+.menu a {
+	color: #2575fc;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 6px 12px;
+	border-radius: 6px;
+	transition: background 0.3s;
+}
+
+.menu a:hover {
+	background: rgba(37, 117, 252, 0.1);
+	text-decoration: none;
+}
+
+.form-container {
+	background: white;
+	padding: 40px 30px;
+	border-radius: 16px;
+	box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 420px;
+	animation: fadeIn 0.5s ease-in-out;
+	margin-top: 40px;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+h2 {
+	margin-bottom: 25px;
+	text-align: center;
+	color: #222;
+}
+
+label {
+	display: block;
+	margin: 12px 0 6px;
+	font-weight: 600;
+	color: #444;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	transition: border 0.2s;
+	font-size: 15px;
+}
+
+input:focus {
+	border-color: #2575fc;
+	outline: none;
+}
+
+.radio-group {
+	display: flex;
+	gap: 15px;
+	margin-bottom: 12px;
+	font-size: 14px;
+}
+
+.checkbox {
+	margin: 12px 0;
+	font-size: 14px;
+}
+
+button {
+	width: 100%;
+	padding: 12px;
+	background: #2575fc;
+	color: white;
+	font-weight: bold;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	margin-top: 15px;
+	transition: background 0.3s;
+	font-size: 15px;
+}
+
+button:hover {
+	background: #1e63d7;
+}
+
+p {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+a {
+	color: #2575fc;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
