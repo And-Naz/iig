@@ -1,0 +1,14 @@
+index.html
+	1. kareliya classner@ shatacnel u styler tal
+
+index2.html
+	1. lava, baic kareliya classner@ shatacnel
+
+index3.html
+	1. lava, baic kareliya classner@ shatacnel
+	2. login-i redirect@ chi ashxatum
+
+index4.html
+	1. kareliya classner@ shatacnel, styler tal u text avelacnel
+
+table@?
