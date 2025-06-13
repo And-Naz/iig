@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="icon" type="image/x-icon" href="./Icons/Logo.jpg" /> <!--data:image/jpeg;base64,/9j/.............-->
+    <link rel="stylesheet" href="./Styles/styleRegister.css">
+
+</head>
+
+<body>
+
+    <form method="post" action="#">
+        <div class="container">
+            <div class="container-box">
+                <h2>Register</h2> <br>
+                <p>Please fill in this form to create an account.</p>
+
+                <input type="text" id="userName" name="userName" required placeholder="Enter Username" />
+                <input type="text" name="email" id="email" required placeholder="Enter Email" />
+                <input type="password" name="password" id="password" required placeholder="Enter Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" />
+                <input type="password" name="passwordrepeat" id="passwordrepeat" required placeholder="Repeat Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" />
+                <br>
+                <label class="labelclass">Gender:  <input type="radio" name="gender" value="male"> Male </input><input
+                        type="radio" name="gender" value="female"> Female </input>
+                </label>
+
+                <br>
+                <br>
+                <label class="labelclass">
+                    <input type="checkbox" name="chkterms" id="chkterms" required> <span>I accept  <a href="./Terms.html"> Terms and conditions</a>.</span>
+                </label>
+                <br>
+                <br>
+                <button type="submit" class="btnRegister">Register</button>
+
+                <p>Already have an account? <a href="./Login.html" id="login">Sign In</a>.</p>
+
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>

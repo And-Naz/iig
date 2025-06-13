@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Login Page</title>
+   <link rel="icon" type="image/x-icon" href="./Icons/Logo.jpg" /> <!--data:image/jpeg;base64,/9j/.............-->
+   <link rel="stylesheet" href="./Styles/styleLogin.css">
+</head>
+
+<body>
+
+   <form method="post" action="#">
+      <div class="container">
+         <div class="container-box">
+            <h2>Enter credentials</h2>
+
+            <input type="text" id="userName" name="userName" required placeholder="Username">
+            <input type="password" id="password" name="password" required placeholder="Password"
+               pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+
+            <button type="submit" class="btnSubmit">Sign In</button>
+            <p>Don't have an account? <a href="./Register.html" id="register">Register</a>.</p>
+         </div>
+      </div>
+   </form>
+
+</body>
+
+</html>

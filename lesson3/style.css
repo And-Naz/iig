@@ -1,0 +1,77 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/* 
+.box {
+   height: 40px;
+   width: 40px;
+   background-color: red;
+} */
+
+/* .box-2 {
+   margin-top: 8px;
+} */
+
+/* .box + .box {
+   margin-top: 8px;
+} */
+
+/* .box ~ .box {
+   margin-top: 8px;
+} */
+
+/* .container > *:nth-child(2) {
+   margin-top: 8px;
+} */
+
+/* .box:nth-of-type(even) {
+   margin-top: 8px;
+} */
+
+/* .box:nth-of-type(odd) {
+   margin-left: 8px;
+} */
+
+/* .box:first-child {
+   margin-top: 8px;
+} */
+
+
+/* .box:not(:last-child) {
+   margin-top: 8px;
+} */
+
+/* .box:not(.box-5):not(.box-4) {
+   margin-top: 8px;
+} */
+
+/* .box:has(> .btn) {
+   background-color: yellow;
+} */
+
+/* 
+.box:empty {
+   background-color: yellow;
+} */
+
+.box  {
+   border: 1px solid black;
+   height: 120px;
+   width: 120px;
+}
+
+.box::before {
+   display: block;
+   /* content: "poxos"; */
+   content: "\2713";
+   background: red;
+}
+
+.box::after {
+   display: block;
+   /* content: "martiros"; */
+   background: yellow;
+   content: attr(data-text);
+}
