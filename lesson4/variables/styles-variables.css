@@ -1,0 +1,83 @@
+:root {
+   /* --app-bg-color: #000;
+   --header-bg-color: red;
+   --sidebar-bg-color: teal;
+   --container-bg-color: grey;
+   --footer-bg-color: orange;
+   --common-gap: 8px;
+   --item-content: "text"; */
+}
+
+.dark {
+   /* --app-bg-color: #ccc1c1;
+   --header-bg-color: rgb(98, 34, 78);
+   --sidebar-bg-color: rgb(7, 52, 52);
+   --container-bg-color: rgb(110, 68, 13);
+   --footer-bg-color: blue;
+   --common-gap: 4px; */
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.app {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   gap: var(--common-gap);
+   background: var(--app-bg-color);
+}
+
+.header {
+   height: 60px;
+   background-color: var(--header-bg-color);
+}
+
+.main {
+   flex-grow: 1;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   gap: var(--common-gap);
+}
+
+.sidebar {
+   width: 200px;
+   min-height: 400px;
+   background-color: var(--sidebar-bg-color);
+
+   color: red;
+}
+
+.list {
+   list-style: none;
+}
+
+.list-item::before {
+   display: inline;
+   content: var(--item-content);
+   font-size: 24px;
+   padding-right: 8px;
+}
+
+.container {
+   flex-grow: 1;
+   position: relative;
+   min-height: 400px;
+   background-color: var(--container-bg-color);
+}
+
+.image {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.footer {
+   height: 200px;
+   background-color: var(--footer-bg-color, orange);
+}

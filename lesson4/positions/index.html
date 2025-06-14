@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Positions</title>
+   <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+   <h1>Positions</h1>
+   <h2>Static</h2>
+   <div class="container static">
+      <div class="element"></div>
+   </div>
+   <h2>Sticky</h2>
+   <div class="container sticky" style="display: flex;">
+      <div class="element">
+      </div>
+   </div>
+   <h2>Relative</h2>
+   <div class="container relative" style="display: flex;">
+      <div class="element">
+         <div class="sub-element"></div>
+      </div>
+      <div style="position: relative; height: 80px; width: 80px; background-color: blue;"></div>
+      <div
+         style="position: relative; height: 80px; width: 80px; background-color: orange; right: 60px; z-index: -1;"
+      >
+      </div>
+   </div>
+   <h2>Absolute</h2>
+   <div class="container absolute" style="display: flex;">
+      <div class="element">
+         1
+      </div>
+   </div>
+   <div class="container absolute" style="display: flex;">
+      <div class="element">
+         2
+      </div>
+   </div>
+   <div class="container fixed" style="display: flex;">
+      <div class="element">
+      </div>
+   </div>
+</body>
+
+</html>
